@@ -1,0 +1,236 @@
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 60px;
+    margin-top: 50px;
+}
+
+.header_list {
+    display: flex;
+    margin-right: auto;
+    margin-top: 50px;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.header_list-contact {
+    display: flex;
+    margin-top: 50px;
+    column-gap: 23px;
+}
+
+.header_list-link {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #e5e5e5;
+}
+
+.footer {
+    display: block;
+    margin: 0 auto;
+    width: 1400px;
+    background-color: #434343;
+}
+
+.secondary_nav {
+    display: flex;
+    margin-left: 110px;
+    margin-right: 110px;
+    border-bottom: #666666;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.secondary_nav_list {
+    display: flex;
+    column-gap: 220px;
+    margin-top: 100px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #AAAAAA;
+    /* ?????????????border */
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    margin-left: 110px;
+    column-gap: 103px;
+}
+
+.navigation_list-item {
+    display: flex;
+    margin-top: 15px;
+}
+
+.navigation_list-link {
+    display: flex;
+    width: max-content;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.customer_info-item {
+    display: flex;
+    margin-top: 15px;
+}
+
+.customer_info-link {
+    font-family: 'Open Sans';
+    width: max-content;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.connect_list {
+    display: flex;
+    margin-left: 96px;
+}
+
+.connect_list-item {
+    display: flex;
+    margin-top: 34px;
+    margin-left: 1px;
+    /* ????????????????????????????????????? */
+}
+
+.connect_list-link-f {
+    display: flex;
+    margin-top: -64px;
+    margin-left: -469px;
+    position: absolute;
+}
+
+.connect_list-link-t {
+    display: flex;
+    margin-top: -64px;
+    margin-left: -429px;
+    position: absolute;
+}
+
+.connect_list-link-p {
+    display: flex;
+    margin-top: -64px;
+    margin-left: -389px;
+    position: absolute;
+}
+
+.connect_list-link-i {
+    display: flex;
+    margin-top: -64px;
+    margin-left: -349px;
+    position: absolute;
+}
+
+.Email {
+    display: flex;
+    margin-top: -89px;
+    background-color: #666666;
+    height: 40px;
+    width: 380px;
+    border-style: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #EBEBEB;
+}
+
+.connect_button {
+    display: flex;
+    margin-top: -89px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 8px 22px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.last_info {
+    display: flex;
+    margin-left: 110px;
+}
+
+.last_info_list {
+    display: flex;
+    margin-left: 110px;
+    margin-right: 110px;
+    column-gap: 20px;
+    border-top: #666666;
+    border-top-width: 1px;
+    border-top-style: solid;
+}
+
+.last_info_list-item {
+    display: flex;
+    margin-top: 52px;
+    margin-bottom: 100px;
+    column-gap: 79px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.rating_list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 52px;
+    margin-bottom: 100px;
+}
+
+.web_design-link {
+    display: flex;
+    margin-left: 44px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #A2A2A2;
+}

@@ -5,39 +5,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Main</title>
 </head>
 
 <body>
-    <header>
-        <a href="/"><img src="./images/logo.svg" alt="Logo"></a>
+    <header class="header container">
+        <a href="/"><img src="./images/logo.svg" alt="Logo" width="100" height="52" class="logo"></a>
         <ul class="header_list">
             <li class="header_list-item"><a class="header_list-link" href="#">BLOG</a></li>
             <li class="header_list-item"><a class="header_list-link" href="#">CATALOG</a></li>
             <li class="header_list-item"><a class="header_list-link" href="#">ABOUT US</a></li>
         </ul>
-        <ul>
-            <li class="header_list-item"><a class="header_list-link" href="#"><img src="./icon/search.svg" alt="Search"></a></li>
-            <li class="header_list-item"><a class="header_list-link--contact" href="#">CONTACT US</a></li>
+        <ul class="header_list-contact">
+            <li class="header_list-item--search"><a class="header_list-link" href="#"><img src="./icon/search.svg"
+                        alt="Search" width="17" height="17"></a></li>
+            <li class="header_list-item--contact"><a class="header_list-link" href="#">CONTACT US</a></li>
         </ul>
     </header>
     <main class="main">
-        <section class="banner">
-            <p>01</p>
+        <section class="banner container">
             <ul class="banner_list">
-                <li><button type="button" class="banner_list-button">&#8212;</button></li>
-                <li><button type="button" class="banner_list-button">&#8212;</button></li>
-                <li><button type="button" class="banner_list-button">&#8212;</button></li>
-                <li><button type="button" class="banner_list-button">&#8212;</button></li>
+                <li class="number">01</li>
+                <li><button type="button" class="banner_list-button"></button></li>
+                <li><button type="button" class="banner_list-button"></button></li>
+                <li><button type="button" class="banner_list-button"></button></li>
+                <li><button type="button" class="banner_list-button"></button></li>
             </ul>
-            <h1 class="banner_title">THE OOH NOO COLLECTION</h1>
-            <img src="./images/monster.png" alt="Monster" width="636" height="461">
-            <p><i>Designed in Slovenia</i></p>
-            <button type="button" class="banner_button">EXPLORE NOW</button>
+            <ul>
+                <li>
+                    <h1 class="banner_title">THE OOH NOO COLLECTION</h1>
+                </li>
+                <li>
+                    <p class="banner_text">Designed in Slovenia</p>
+                </li>
+                <li><button type="button" class="banner_button">EXPLORE NOW</button></li>
+                <li><img src="./images/monster.png" alt="Monster" class="banner_pic" width="636" height="461"></li>
+            </ul>
+            <p class="banner_after-text">Free (continental) USA shipping on all orders of $100 USD or more!</p>
         </section>
-        <section class="categories">
+        <section class="categories container">
             <h2 class="category_title">CATEGORY PRODUCTS</h2>
             <ul class="categories_list">
                 <li class="categories_list-item">
@@ -57,58 +67,76 @@
                     <a class="categories_list-link" href="#">ACCESSORIES</a>
                 </li>
             </ul>
-            <p class="categories_list-end">
-                <button type="button" class="categories_button-back">&lt;</button>
-                <button type="button" class="categories_button-ahead">&gt;</button>
-                Modern finds for the modern home. Curated goods by unique designers<br>
-                around the world from fashion to furniture for kids and adults.
-            </p>
+            <ul class="categories_text">
+                <li class="categories_text-item"><button type="button" class="categories_button-back"><img
+                            src="./icon/back.svg" alt="btn-back"></button></li>
+                <li class="categories_text-item"><button type="button" class="categories_button-ahead"><img
+                            src="./icon/ahead.svg" alt="btn-ahead"></button></li>
+                <li class="categories_text-item">Modern finds for the modern home. Curated goods by unique designers
+                    around the
+                    world from fashion to furniture for kids and adults.
+                </li>
+            </ul>
         </section>
-        <section class="delivery">
+        <section class="delivery container">
             <img src="./images/woman.jpg" alt="Woman" width="480" height="559">
-            <h2 class="delivery_title">DELIVERY</h2>
             <ul class="delivery_list">
-                <li class="delivery_list-item"><i>Delivery</i></li>
+                <li class="delivery-title">
+                    <h2 class="delivery_title">DELIVERY</h2>
+                </li>
+                <li class="delivery_list-main"><i>Delivery</i></li>
                 <li class="delivery_list-item"><i>Guarantee</i></li>
                 <li class="delivery_list-item"><i>Credit</i></li>
+                <li class="delivery_text">
+                    <p>Some days i feel like i've been working on dlk my entire life and there are other days that i am
+                        completely shocked that four years have flown by. It's simply magical.</p>
+                </li>
+                <li class="delivery_text">
+                    <p>What started as an outlet to deal with the traumatic loss of my husband, dlk has now become a
+                        truly
+                        happy place for me and i have you and all of the beautiful designers that we work with to thank!
+                    </p>
+                </li>
+                <li class="delivery_btn"><button type="button" class="delivery_button">LEARN MORE</button></li>
             </ul>
-            <p class="delivery_text">
-                Some days i feel like i've been working on dlk my entire life and there are other days that i am
-                completely shocked that four years have flown by. It's simply magical.
-            </p>
-            <p class="delivery_text">
-                What started as an outlet to deal with the traumatic loss of my husband, dlk has now become a truly
-                happy place for me and i have you and all of the beautiful designers that we work with to thank!
-            </p>
-            <button type="button" class="delivery_button">LEARN MORE</button>
         </section>
-        <div class="companies_logo">
+        <div class="companies_logo container">
             <ul class="companies_list">
-                <li class="companies_list-item"><img src="./images/mail.png" width="193" height="60" alt="mail.ru group_logo"></li>
-                <li class="companies_list-item"><img src="./images/apple.png" width="179" height="61" alt="Apple_logo"></li>
-                <li class="companies_list-item"><img src="./images/eltex.png" width="216" height="46" alt="ELTEX_logo"></li>
-                <li class="companies_list-item"><img src="./images/owox.png" width="211" height="40" alt="OWOX_logo"></li>
+                <li class="companies_list-item"><img src="./images/mail.png" width="193" height="60"
+                        alt="mail.ru group_logo"></li>
+                <li class="companies_list-item"><img src="./images/apple.png" width="179" height="61" alt="Apple_logo">
+                </li>
+                <li class="companies_list-item"><img src="./images/eltex.png" width="216" height="46" alt="ELTEX_logo">
+                </li>
+                <li class="companies_list-item"><img src="./images/owox.png" width="211" height="40" alt="OWOX_logo">
+                </li>
             </ul>
         </div>
         <div>
-            <section class="about_company">
-                <h2 class="about_company_title">DESIGN LIFE KIDS</h2>
-                <p><i>About Us</i></p>
-                <p class="about_company_text">
-                    Some days i feel like i've been working on dlk my entire life and there
-                    are other days that i am completely shocked that four years have flown by. It's simply magical.
-                </p>
-                <button type="button" class="about_company_button">BUY NOW</button>
-                <h2 class="contacts_title">CONTACTS</h2>
-                <p class="contacts_text">
-                    Some days i feel like i've been working on dlk my entire life and there are
-                    other days that i am completely shocked that four years have flown by. It's simply magical.
-                </p>
-                <img src="./images/map.jpg" width="483" height="196" alt="Map">
+            <section class="about_company container">
+                <ul class="about_us_list">
+                    <li about_us_list-item><h2 class="about_us_title">DESIGN LIFE KIDS</h2></li>
+                    <li about_us_list-item><p class="about_us_subtitle">About Us</p></li>
+                    <li about_us_list-item>
+                        <p class="about_us_text">Some days i feel like i've been working on dlk my entire life and
+                        there are other days that i am completely shocked that four years have flown by. It's simply
+                        magical.</p>
+                    </li>
+                    <li about_us_list-item><button type="button" class="about_us_button">BUY NOW</button></li>
+                </ul>
+                <ul class="contacts_list">
+                    <li contacts_list-item><h2 class="contacts_title">CONTACTS</h2></li>
+                    <li contacts_list-item>
+                        <p class="contacts_text">Some days i feel like i've been working on dlk my entire life and there
+                        are other days that i am completely shocked that four years have flown by. It's simply
+                        magical.</p>
+                    </li>
+                    <li contacts_list-item><img src="./images/map.jpg" width="483" height="196" alt="Map"></li>
+                </ul>
             </section>
         </div>
     </main>
-    <footer>
+    <footer class="footer">
         <div class="secondary_nav">
             <ul class="secondary_nav_list">
                 <li class="secondary_nav_list-item">Navigation</li>
@@ -133,36 +161,36 @@
                 <li class="customer_info-item"><a class="customer_info-link" href="#">Privacy Policy</a></li>
                 <li class="customer_info-item"><a class="customer_info-link" href="#">Search</a></li>
             </ul>
-            <input type="text" class="Email">
-            <button type="button" class="connect_button">Join</button>
             <ul class="connect_list">
+                <li><input type="text" class="Email" value="Email"></li>
+                <li><button type="button" class="connect_button">Join</button></li>
                 <li class="connect_list-item">
-                    <a class="connect_list-link" href="#"><img src="./icon/Facebook.svg" alt="facebook_logo"></a>
+                    <a class="connect_list-link-f" href="#"><img src="./icon/Facebook.svg" alt="facebook_logo"></a>
                 </li>
                 <li class="connect_list-item">
-                    <a class="connect_list-link" href="#"><img src="./icon/Twitter.svg" alt="twitter_logo"></a>
+                    <a class="connect_list-link-t" href="#"><img src="./icon/Twitter.svg" alt="twitter_logo"></a>
                 </li>
                 <li class="connect_list-item">
-                    <a class="connect_list-link" href="#"><img src="./icon/Pinterest.svg" alt="pinterest_logo"></a>
+                    <a class="connect_list-link-p" href="#"><img src="./icon/Pinterest.svg" alt="pinterest_logo"></a>
                 </li>
                 <li class="connect_list-item">
-                    <a class="connect_list-link" href="#"><img src="./icon/Instagram.svg" alt="instagram_logo"></a>
+                    <a class="connect_list-link-i" href="#"><img src="./icon/Instagram.svg" alt="instagram_logo"></a>
                 </li>
             </ul>
         </div>
-        <div>
+        <div class="last-info">
             <ul class="last_info_list">
-                <li class="last_info_list-item">Company Rating
-                    <ul class="rating_list">
-                        <li class="rating_list-item"><button type="button" class="rating_button">&#9734;</button></li>
-                        <li class="rating_list-item"><button type="button" class="rating_button">&#9734;</button></li>
-                        <li class="rating_list-item"><button type="button" class="rating_button">&#9734;</button></li>
-                        <li class="rating_list-item"><button type="button" class="rating_button">&#9734;</button></li>
-                        <li class="rating_list-item"><button type="button" class="rating_button">&#9734;</button></li>
-                    </ul>
-                </li>                   
-                <li class="last_info_list-item">Copyright &copy;</li>
-                <li><a class="web_design-link" href="#">Web Design</a></li>        
+                <li class="last_info_list-item">Company Rating</li>
+                <ul class="rating_list">
+                    <li><input type="radio" id="star" multiple class="rating">&#9734;</li>
+                    <li><input type="radio" id="star" multiple class="rating">&#9734;</li>
+                    <li><input type="radio" id="star" multiple class="rating">&#9734;</li>
+                    <li><input type="radio" id="star" multiple class="rating">&#9734;</li>
+                    <li><input type="radio" id="star" multiple class="rating">&#9734;</li>
+                </ul>
+                <li class="last_info_list-item">Copyright &copy;2018 Dlk • Design Life Kids</li>
+                <li class="last_info_list-item"><a class="web_design-link" href="#">Web Design — Direct Line
+                        Development</a></li>
             </ul>
         </div>
     </footer>
