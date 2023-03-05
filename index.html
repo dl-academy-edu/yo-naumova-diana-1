@@ -16,37 +16,38 @@
     <header class="header container">
         <a href="/"><img src="./images/logo.svg" alt="Logo" width="100" height="52" class="logo"></a>
         <ul class="header_list">
-            <li class="header_list-item"><a class="header_list-link" href="#">BLOG</a></li>
-            <li class="header_list-item"><a class="header_list-link" href="#">CATALOG</a></li>
-            <li class="header_list-item"><a class="header_list-link" href="#">ABOUT US</a></li>
+            <li class="header_list-item"><a class="header_list-link" href="./pages/blog.html">BLOG</a></li>
+            <li class="header_list-item"><a class="header_list-link" href="./pages/catalog.html">CATALOG</a></li>
+            <li class="header_list-item"><a class="header_list-link" href="#about_us">ABOUT US</a></li>
         </ul>
-        <ul class="header_list-contact">
-            <li class="header_list-item--search"><a class="header_list-link" href="#"><img src="./icon/search.svg"
-                        alt="Search" width="17" height="17"></a></li>
-            <li class="header_list-item--contact"><a class="header_list-link" href="#">CONTACT US</a></li>
+        <ul class="header_contact">
+            <li class="header_contact-item"><a class="header_contact-link" href="#"><img src="./icon/search.svg" alt="Search" width="17" height="17"></a></li>
+            <li class="header_contact-item"><a class="header_contact-link" href="./pages/contact.html">CONTACT US</a></li>
         </ul>
     </header>
     <main class="main">
-        <section class="banner container">
-            <ul class="banner_list">
-                <li class="number">01</li>
-                <li><button type="button" class="banner_list-button"></button></li>
-                <li><button type="button" class="banner_list-button"></button></li>
-                <li><button type="button" class="banner_list-button"></button></li>
-                <li><button type="button" class="banner_list-button"></button></li>
-            </ul>
-            <ul>
-                <li>
-                    <h1 class="banner_title">THE OOH NOO COLLECTION</h1>
-                </li>
-                <li>
-                    <p class="banner_text">Designed in Slovenia</p>
-                </li>
-                <li><button type="button" class="banner_button">EXPLORE NOW</button></li>
-                <li><img src="./images/monster.png" alt="Monster" class="banner_pic" width="636" height="461"></li>
-            </ul>
-            <p class="banner_after-text">Free (continental) USA shipping on all orders of $100 USD or more!</p>
-        </section>
+        <div class="banner container">
+            <div class="banner_wrapper">
+                <ul class="banner_list">
+                    <li class="number">01</li>
+                    <li class="banner_list-item"><button type="button" class="banner_list-button"></button></li>
+                    <li class="banner_list-item"><button type="button" class="banner_list-button"></button></li>
+                    <li class="banner_list-item"><button type="button" class="banner_list-button"></button></li>
+                    <li class="banner_list-item"><button type="button" class="banner_list-button"></button></li>
+                </ul>
+                <ul class="banner_content-list">
+                    <li class="banner_content-item">
+                        <h1 class="banner_title">THE OOH NOO COLLECTION</h1>
+                    </li>
+                    <li class="banner_content-item">
+                        <p class="banner_text">Designed in Slovenia</p>
+                    </li>
+                    <li class="banner_content-item"><button type="button" class="banner_button">EXPLORE NOW</button></li>
+                    <li class="banner_content-item"><img src="./images/monster.png" alt="Monster" width="636" height="461" class="banner_pic"></li>
+                </ul>
+            </div>
+            <p class="banner_subtext">Free (continental) USA shipping on all orders of $100 USD or more!</p>
+        </div>
         <section class="categories container">
             <h2 class="category_title">CATEGORY PRODUCTS</h2>
             <ul class="categories_list">
@@ -60,7 +61,7 @@
                 </li>
                 <li class="categories_list-item">
                     <img src="./images/deer.jpg" alt="Deer" width="280" height="270">
-                    <a class="categories_list-link" href="#">TOYS</a>
+                    <a class="categories_list-link" href="./pages/toys.html">TOYS</a>
                 </li>
                 <li class="categories_list-item">
                     <img src="./images/yeti.jpg" alt="Yeti" width="280" height="270">
@@ -69,12 +70,11 @@
             </ul>
             <ul class="categories_text">
                 <li class="categories_text-item"><button type="button" class="categories_button-back"><img
-                            src="./icon/back.svg" alt="btn-back"></button></li>
+                            src="./icon/back.svg" alt="btn-back" width="13" height="26"></button></li>
                 <li class="categories_text-item"><button type="button" class="categories_button-ahead"><img
-                            src="./icon/ahead.svg" alt="btn-ahead"></button></li>
+                            src="./icon/ahead.svg" alt="btn-ahead" width="13" height="26"></button></li>
                 <li class="categories_text-item">Modern finds for the modern home. Curated goods by unique designers
-                    around the
-                    world from fashion to furniture for kids and adults.
+                    around the world from fashion to furniture for kids and adults.
                 </li>
             </ul>
         </section>
@@ -84,9 +84,9 @@
                 <li class="delivery-title">
                     <h2 class="delivery_title">DELIVERY</h2>
                 </li>
-                <li class="delivery_list-main"><i>Delivery</i></li>
-                <li class="delivery_list-item"><i>Guarantee</i></li>
-                <li class="delivery_list-item"><i>Credit</i></li>
+                <li class="delivery_list-main"><a class="delivery_link-main" href="#">Delivery</a></li>
+                <li class="delivery_list-item"><a class="delivery_list-link" href="#">Guarantee</a></li>
+                <li class="delivery_list-item"><a class="delivery_list-link" href="#">Credit</a></li>
                 <li class="delivery_text">
                     <p>Some days i feel like i've been working on dlk my entire life and there are other days that i am
                         completely shocked that four years have flown by. It's simply magical.</p>
@@ -115,23 +115,35 @@
         <div>
             <section class="about_company container">
                 <ul class="about_us_list">
-                    <li about_us_list-item><h2 class="about_us_title">DESIGN LIFE KIDS</h2></li>
-                    <li about_us_list-item><p class="about_us_subtitle">About Us</p></li>
+                    <li about_us_list-item>
+                        <h2 class="about_us_title" id="about_us">DESIGN LIFE KIDS</h2>
+                    </li>
+                    <li about_us_list-item>
+                        <p class="about_us_subtitle">About Us</p>
+                    </li>
                     <li about_us_list-item>
                         <p class="about_us_text">Some days i feel like i've been working on dlk my entire life and
-                        there are other days that i am completely shocked that four years have flown by. It's simply
-                        magical.</p>
+                            there are other days that i am completely shocked that four years have flown by. It's simply
+                            magical.</p>
                     </li>
                     <li about_us_list-item><button type="button" class="about_us_button">BUY NOW</button></li>
                 </ul>
                 <ul class="contacts_list">
-                    <li contacts_list-item><h2 class="contacts_title">CONTACTS</h2></li>
+                    <li contacts_list-item>
+                        <h2 class="contacts_title">CONTACTS</h2>
+                    </li>
                     <li contacts_list-item>
                         <p class="contacts_text">Some days i feel like i've been working on dlk my entire life and there
-                        are other days that i am completely shocked that four years have flown by. It's simply
-                        magical.</p>
+                            are other days that i am completely shocked that four years have flown by. It's simply
+                            magical.</p>
                     </li>
-                    <li contacts_list-item><img src="./images/map.jpg" width="483" height="196" alt="Map"></li>
+                    <li contacts_list-pic> 
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3438.979307179263!2d-122.42051417544492!3d37.776961027283065!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1677918726204!5m2!1sru!2sru"
+                            width="483" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </li>
                 </ul>
             </section>
         </div>
@@ -144,7 +156,7 @@
                 <li class="secondary_nav_list-item">Connect</li>
             </ul>
         </div>
-        <div class="navigation">
+        <div class="wrapper">
             <ul class="navigation_list">
                 <li class="navigation_list-item"><a class="navigation_list-link" href="#">About Us</a></li>
                 <li class="navigation_list-item"><a class="navigation_list-link" href="#">Blog</a></li>
@@ -161,9 +173,12 @@
                 <li class="customer_info-item"><a class="customer_info-link" href="#">Privacy Policy</a></li>
                 <li class="customer_info-item"><a class="customer_info-link" href="#">Search</a></li>
             </ul>
+
+            <form action="#" class="email_form">
+                <input type="email" class="email" id="Email" placeholder="Email"></p>
+                <button type="button" class="connect_button">Join</button>
+            </form>
             <ul class="connect_list">
-                <li><input type="text" class="Email" value="Email"></li>
-                <li><button type="button" class="connect_button">Join</button></li>
                 <li class="connect_list-item">
                     <a class="connect_list-link-f" href="#"><img src="./icon/Facebook.svg" alt="facebook_logo"></a>
                 </li>
@@ -180,20 +195,73 @@
         </div>
         <div class="last-info">
             <ul class="last_info_list">
-                <li class="last_info_list-item">Company Rating</li>
+                <li class="last_info_list-item comp_rating">Company Rating</li>
                 <ul class="rating_list">
-                    <li><input type="radio" id="star" multiple class="rating">&#9734;</li>
-                    <li><input type="radio" id="star" multiple class="rating">&#9734;</li>
-                    <li><input type="radio" id="star" multiple class="rating">&#9734;</li>
-                    <li><input type="radio" id="star" multiple class="rating">&#9734;</li>
-                    <li><input type="radio" id="star" multiple class="rating">&#9734;</li>
+                    <li class="rating-item">
+                        <label for="star_a" class="rating_label"></label>
+                        <input type="radio" id="star_a" name="star_rating" class="rating_input">
+                    </li>
+                    <li class="rating-item">
+                        <label for="star_b" id="star" class="rating_label"></label>
+                        <input type="radio" id="star_b" name="star_rating"  class="rating_input">
+                    </li>
+                    <li class="rating-item">
+                        <label for="star_c" class="rating_label"></label>
+                        <input type="radio" id="star_c" name="star_rating"  class="rating_input">
+                    </li>                        
+                    <li class="rating-item">
+                        <label for="star_d" class="rating_label"></label>
+                        <input type="radio" id="star_d" name="star_rating"  class="rating_input">
+                    </li>                        
+                    <li class="rating-item">
+                        <label for="star_e" class="rating_label"></label>
+                        <input type="radio" id="star_e" name="star_rating" class="rating_input">
+                    </li>
                 </ul>
                 <li class="last_info_list-item">Copyright &copy;2018 Dlk • Design Life Kids</li>
-                <li class="last_info_list-item"><a class="web_design-link" href="#">Web Design — Direct Line
-                        Development</a></li>
+                <li class="last_info_list-item"><a class="web_design-link" href="#">Web Design — Direct Line Development</a></li>
             </ul>
         </div>
     </footer>
+    <!-- popup -->
+    <div class="popup">
+        <div class="popup_wrapper">
+            <form method="post" action="#" class="contact_form">
+                <div class="form_inner-wr">
+                    <div class="form_wrapper-name">
+                        <label for="name" class="form_label">Name
+                            <input type="text" id="name" class="form_input-name" placeholder="Ivan Ivanov">
+                        </label>
+                    </div>
+                    <div class="form_wrapper">
+                        <div class="form_inner">
+                            <label for="phone" class="form_label">Phone
+                                <input type="tel" id="phone" class="form_input">
+                            </label>
+                            <label for="email" class="form_label">Email
+                                <input type="email" id="email" class="form_input"></label>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form_message">
+                        <label for="message" class="form_label">Message
+                            <textarea class="form_text-message" id="message" cols="30" rows="10"></textarea>
+                        </label>
+                    </div>
+                    <div class="consent_wrapper">
+                        <input type="checkbox" id="consent" class="form_consent">
+                        <label for="consent" class="form_label-consent">By clicking on the button, you consent to the processing
+                                of your personal data
+                        </label>
+                    </div>
+                    <button type="submit" class="form_button">Submit</button>
+                </div>
+            </form>
+            <button type="button" class="close"></button>
+        </div>
+        <div class="overlay"></div>
+    </div>
+    <script src="./js/popup.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,143 @@
+.search_line {
+    display: block;
+}
+
+.page_title {
+    display: flex;
+    margin-top: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+/* bread crumbs */
+
+.search_line_list {
+    display: flex;
+    margin-left: -38px;
+    margin-top: -15px;
+    margin-bottom: 50px;
+    column-gap: 10px;
+    border-top: 30px;
+}
+
+.search_line_list-item {
+    display: flex;
+}
+
+.search_line_list-link {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+}
+
+.search_line_list-link:hover {
+    opacity: 0.5;
+}
+
+.search_line_list-link:active {
+    opacity: 0.2;
+}
+
+.search_line_button-ahead {
+    border: none;
+    background-color: #ffffff;
+}
+
+/* articles style */
+
+.articles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+
+.article_date {
+    display: flex;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #818181;
+}
+
+.article_title {
+    display: flex;
+    width: 380px;
+}
+
+.article_title_link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #1E0606;
+}
+
+.article_text {
+    display: flex;
+    width: 380px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1E0606;
+}
+
+/* pagination */
+
+.pages_list {
+    display: flex;
+    align-items: center;
+    margin-top: 33px;
+    margin-bottom: -33px;
+    column-gap: 64px;
+}
+
+.pages_list-item {
+    display: flex;
+}
+
+.pages_list-link {
+    display: flex;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+.pages_list-link:hover {
+    color: #AAAAAA;
+}
+
+.pages_list-link:active {
+    color: #C29974;
+}
+
+.pages_button-back {
+    display: flex;
+    margin-right: 300px;
+    border-style: none;
+    background-color: #ffffff;
+}
+
+.pages_button-ahead {
+    display: flex;
+    margin-left: 300px;
+    border-style: none;
+    background-color: #ffffff;
+}

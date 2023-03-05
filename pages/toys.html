@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../fonts/fonts.css">
+    <link rel="stylesheet" href="../css/toys.css">
+    <title>Toys</title>
+</head>
+
+<body>
+    <header class="header container">
+        <a href="/"><img src="../images/logo.svg" alt="Logo" width="100" height="52" class="logo"></a>
+        <ul class="header_list">
+            <li class="header_list-item"><a class="header_list-link" href="../pages/blog.html">BLOG</a></li>
+            <li class="header_list-item"><a class="header_list-link" href="../pages/catalog.html">CATALOG</a></li>
+            <li class="header_list-item"><a class="header_list-link" href="#">ABOUT US</a></li>
+        </ul>
+        <ul class="header_contact">
+            <li class="header_contact-item"><a class="header_contact-link" href="#"><img src="../icon/search.svg" alt="Search" width="17" height="17"></a></li>
+            <li class="header_contact-item"><a class="header_contact-link" href="../pages/contact.html">CONTACT US</a></li>
+        </ul>
+    </header>
+    <main class="toys">
+        <section class="search_line container">
+            <h1 class="page_title">TOY FOR KIDS</h1>
+            <ul class="search_line_list">
+                <li class="search_line_list-item"><a class="search_line_list-link" href="#">Home</a></li>
+                <li class="search_line_list-item"><button type="button" class="search_line_button-ahead"><img src="../icon/ahead.svg" alt="btn-ahead" width="8" height="12"></button>
+                </li>
+                <li class="search_line_list-item"><a class="search_line_list-link" href="#">Catalog</a></li>
+                <li class="search_line_list-item"><button type="button" class="search_line_button-ahead"><img src="../icon/ahead.svg" alt="btn-ahead" width="8" height="12"></button>
+                </li>
+                <li class="search_line_list-item"><a class="search_line_list-link" href="#">Toys</a></li>
+            </ul>
+        </section>
+        <div class="search-form">
+            <div class="settings_wrapper container">
+                <div class="range_wrapper">
+                    <h2 class="search-form_title">Cost</h2>
+                    <input type="range" id="range" min="0" max="500" step="100" value="0" class="set_range">
+                    <ul class="range_list">
+                    <li class="min_range">0</li>
+                    <li class="max_range">500</li>
+                    </ul>
+                </div>
+                <div class="color_wrapper">
+                    <h2 class="search-form_title">Color</h2>
+                    <p class="set_color">
+                        <input type="checkbox" id="color" class="color_input">
+                        <label for="color" class="color_label">Black</label>
+                    </p>
+                    <p class="set_color">
+                        <input type="checkbox" id="Blue" class="color_input">
+                        <label for="Blue" class="color_label">Blue</label>
+                    </p>
+                    <p class="set_color">
+                        <input type="checkbox" id="Green" class="color_input">
+                        <label for="Green" class="color_label">Green</label>
+                    </p>
+                    <p class="set_color">
+                        <input type="checkbox" id="White" class="color_input">
+                        <label for="White" class="color_label">White</label>
+                    </p>
+                </div>
+                <div class="delivery_wrapper">
+                    <h2 class="search-form_title">Delivery</h2>
+                    <p class="set_delivery">
+                        <input type="radio" id="Free" name="del_btn" class="delivery_input">
+                        <label for="Free" class="delivery_label">Free shipping</label>
+                    </p>
+                    <p class="set_delivery">
+                        <input type="radio" id="Fast" name="del_btn" class="delivery_input">
+                        <label for="Fast" class="delivery_label">Fast shipping</label>
+                    </p>
+                </div>
+                <div class="amount_wrapper">
+                    <h2 class="search-form_title">Amount</h2>
+                    <ul class="amount_list">
+                        <li class="amount_list-item"><input type="button" class="amount_btn" value="0-5"></li>
+                        <li class="amount_list-item"><input type="button" class="amount_btn" value="10-20"></li>
+                        <li class="amount_list-item"><input type="button" class="amount_btn" value="20-50"></li>
+                    </ul>
+                </div>
+                <button type="button" class="search-form_button">APPLY</button>
+            </div>
+        </div>
+        <div class="cards container">
+            <ul class="cards_list">
+                <li class="cards_list-shark">
+                    <img src="../images/shark.jpg" alt="Shark" width="380" height="385">
+                    <a class="cards_list-link" href="#">SHARKY BEAN BAG CHAIR COVER</a>
+                    <p class="cost">$60.00 USD</p>
+                </li>
+                <li class="cards_list-frames">
+                    <img src="../images/frames.jpg" alt="Frames" width="380" height="385">
+                    <a class="cards_list-link" href="#">BRASS DECO FRAMES</a>
+                    <p class="cost">$66.00 USD</p>
+                </li>
+                <li class="cards_list-apron">
+                    <img src="../images/apron.jpg" alt="Apron" width="380" height="385">
+                    <a class="cards_list-link" href="#">CIBO FULL APRON</a>
+                    <p class="cost">$60.00 USD</p>
+                </li>
+                <li class="cards_list-gumball">
+                    <img src="../images/gumball.jpg" alt="Gumball" width="380" height="385">
+                    <a class="cards_list-link" href="#">GATCHA GATCHA GUMBALL MACHINE</a>
+                    <p class="cost">$56.00 USD</p>
+                </li>
+                <li class="cards_list-candle">
+                    <img src="../images/candle.jpg" alt="Candle" width="380" height="385">
+                    <a class="cards_list-link" href="#">CHRISTMAS ADVENT SCENTED CANDLE</a>
+                    <p class="cost">$29.00 USD</p>
+                </li>
+                <li class="cards_list-tea-light">
+                    <img src="../images/tea-light.jpg" alt="Tea-light" width="380" height="385">
+                    <a class="cards_list-link" href="#">TAGLE SPINNING TEA LIGHT</a>
+                    <p class="cost">$56.00 USD</p>
+                </li>
+            </ul>
+        </div>
+        <div class="pages container">
+            <ul class="pages_list">
+                <li><button type="button" class="pages_button-back"><img src="../icon/page_back.svg" alt="page-back" width="13" height="26"></button></li>
+                <li class="pages_list-item"><a class="pages_list-link" href="#">1</a></li>
+                <li class="pages_list-item"><a class="pages_list-link" href="#">2</a></li>
+                <li class="pages_list-item"><a class="pages_list-link" href="#">3</a></li>
+                <li class="pages_list-item"><a class="pages_list-link" href="#">4</a></li>
+                <li><button type="button" class="pages_button-ahead"><img src="../icon/page_ahead.svg" alt="page-ahead" width="13" height="26"></button></li>
+            </ul>
+        </div>       
+    </main>
+    <footer class="footer">
+        <div class="secondary_nav">
+            <ul class="secondary_nav_list">
+                <li class="secondary_nav_list-item">Navigation</li>
+                <li class="secondary_nav_list-item">Customer information</li>
+                <li class="secondary_nav_list-item">Connect</li>
+            </ul>
+        </div>
+        <div class="wrapper">
+            <ul class="navigation_list">
+                <li class="navigation_list-item"><a class="navigation_list-link" href="#">About Us</a></li>
+                <li class="navigation_list-item"><a class="navigation_list-link" href="#">Blog</a></li>
+                <li class="navigation_list-item"><a class="navigation_list-link" href="#">Design Services</a></li>
+                <li class="navigation_list-item"><a class="navigation_list-link" href="#">Featured On</a></li>
+                <li class="navigation_list-item"><a class="navigation_list-link" href="#">2018 Holiday Catalog</a></li>
+                <li class="navigation_list-item"><a class="navigation_list-link" href="#">Shop By Designer</a></li>
+            </ul>
+            <ul class="customer_info_list">
+                <li class="customer_info-item"><a class="customer_info-link" href="#">Contact Us</a></li>
+                <li class="customer_info-item"><a class="customer_info-link" href="#">Sale Exclusions</a></li>
+                <li class="customer_info-item"><a class="customer_info-link" href="#">Shipping & Returns</a></li>
+                <li class="customer_info-item"><a class="customer_info-link" href="#">Terms & Conditions</a></li>
+                <li class="customer_info-item"><a class="customer_info-link" href="#">Privacy Policy</a></li>
+                <li class="customer_info-item"><a class="customer_info-link" href="#">Search</a></li>
+            </ul>
+
+            <form action="#" class="email_form">
+                <input type="email" class="email" id="Email" placeholder="Email"></p>
+                <button type="button" class="connect_button">Join</button>
+            </form>
+            <ul class="connect_list">
+                <li class="connect_list-item">
+                    <a class="connect_list-link-f" href="#"><img src="../icon/Facebook.svg" alt="facebook_logo"></a>
+                </li>
+                <li class="connect_list-item">
+                    <a class="connect_list-link-t" href="#"><img src="../icon/Twitter.svg" alt="twitter_logo"></a>
+                </li>
+                <li class="connect_list-item">
+                    <a class="connect_list-link-p" href="#"><img src="../icon/Pinterest.svg" alt="pinterest_logo"></a>
+                </li>
+                <li class="connect_list-item">
+                    <a class="connect_list-link-i" href="#"><img src="../icon/Instagram.svg" alt="instagram_logo"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="last-info">
+            <ul class="last_info_list">
+                <li class="last_info_list-item comp_rating">Company Rating</li>
+                <ul class="rating_list">
+                    <li class="rating-item">
+                        <label for="star_a" class="rating_label"></label>
+                        <input type="radio" id="star_a" name="star_rating" class="rating_input">
+                    </li>
+                    <li class="rating-item">
+                        <label for="star_b" id="star" class="rating_label"></label>
+                        <input type="radio" id="star_b" name="star_rating"  class="rating_input">
+                    </li>
+                    <li class="rating-item">
+                        <label for="star_c" class="rating_label"></label>
+                        <input type="radio" id="star_c" name="star_rating"  class="rating_input">
+                    </li>                        
+                    <li class="rating-item">
+                        <label for="star_d" class="rating_label"></label>
+                        <input type="radio" id="star_d" name="star_rating"  class="rating_input">
+                    </li>                        
+                    <li class="rating-item">
+                        <label for="star_e" class="rating_label"></label>
+                        <input type="radio" id="star_e" name="star_rating" class="rating_input">
+                    </li>
+                </ul>
+                <li class="last_info_list-item">Copyright &copy;2018 Dlk • Design Life Kids</li>
+                <li class="last_info_list-item"><a class="web_design-link" href="#">Web Design — Direct Line Development</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
