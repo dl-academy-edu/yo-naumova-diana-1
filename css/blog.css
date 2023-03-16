@@ -4,7 +4,7 @@
 
 .page_title {
     display: flex;
-    margin-top: 40px;
+    margin-top: 56px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -18,10 +18,10 @@
 
 .search_line_list {
     display: flex;
-    margin-left: -38px;
-    margin-top: -15px;
+    margin-left: -39px;
+    margin-top: -13px;
     margin-bottom: 50px;
-    column-gap: 10px;
+    column-gap: 15px;
     border-top: 30px;
 }
 
@@ -72,6 +72,7 @@
 
 .article_title {
     display: flex;
+    margin-top: -10px;
     width: 380px;
 }
 
@@ -86,6 +87,8 @@
 
 .article_text {
     display: flex;
+    margin-top: -3px;
+    margin-bottom: 34px;
     width: 380px;
     font-family: 'Open Sans';
     font-style: normal;
@@ -100,9 +103,10 @@
 .pages_list {
     display: flex;
     align-items: center;
-    margin-top: 33px;
-    margin-bottom: -33px;
-    column-gap: 64px;
+    margin-top: 13px;
+    margin-left: 37px;
+    margin-bottom: -41px;
+    column-gap: 65px;
 }
 
 .pages_list-item {
@@ -130,14 +134,37 @@
 
 .pages_button-back {
     display: flex;
-    margin-right: 300px;
+    margin-left: -75px;
+    margin-right: 390px;
     border-style: none;
     background-color: #ffffff;
 }
 
+.pages_button-back:hover {
+    background-image: url("../images/page_back_hover.svg");
+    transform: rotate(180deg);
+    background-repeat: no-repeat;
+}
+
+.pages_button-back:active {
+    background-image: url("../images/page_back_active.svg");
+    transform: rotate(180deg);
+    background-repeat: no-repeat;
+}
+
 .pages_button-ahead {
     display: flex;
-    margin-left: 300px;
+    margin-left: 391px;
     border-style: none;
-    background-color: #ffffff;
+    background-color: none;
+}
+
+.pages_button-ahead:hover {
+    background-image: url("../images/page_ahead_hover.svg");
+    background-repeat: no-repeat;
+}
+
+.pages_button-ahead:active {
+    background-image: url("../images/page_ahead_active.svg");
+    background-repeat: no-repeat;
 }

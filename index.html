@@ -42,7 +42,7 @@
                     <li class="banner_content-item">
                         <p class="banner_text">Designed in Slovenia</p>
                     </li>
-                    <li class="banner_content-item"><button type="button" class="banner_button">EXPLORE NOW</button></li>
+                    <li class="banner_content-item"><button type="button" class="banner_button" aria-label="Open popup">EXPLORE NOW</button></li>
                     <li class="banner_content-item"><img src="./images/monster.png" alt="Monster" width="636" height="461" class="banner_pic"></li>
                 </ul>
             </div>
@@ -69,9 +69,9 @@
                 </li>
             </ul>
             <ul class="categories_text">
-                <li class="categories_text-item"><button type="button" class="categories_button-back"><img
+                <li class="categories_text-item"><button type="button" class="categories_button-back" aria-label="Previous category"><img
                             src="./icon/back.svg" alt="btn-back" width="13" height="26"></button></li>
-                <li class="categories_text-item"><button type="button" class="categories_button-ahead"><img
+                <li class="categories_text-item"><button type="button" class="categories_button-ahead" aria-label="Next category"><img
                             src="./icon/ahead.svg" alt="btn-ahead" width="13" height="26"></button></li>
                 <li class="categories_text-item">Modern finds for the modern home. Curated goods by unique designers
                     around the world from fashion to furniture for kids and adults.
@@ -79,7 +79,7 @@
             </ul>
         </section>
         <section class="delivery container">
-            <img src="./images/woman.jpg" alt="Woman" width="480" height="559">
+            <img src="./images/woman.jpg" alt="Woman" width="480" height="559" class="delivery_pic">
             <ul class="delivery_list">
                 <li class="delivery-title">
                     <h2 class="delivery_title">DELIVERY</h2>
@@ -87,23 +87,22 @@
                 <li class="delivery_list-main"><a class="delivery_link-main" href="#">Delivery</a></li>
                 <li class="delivery_list-item"><a class="delivery_list-link" href="#">Guarantee</a></li>
                 <li class="delivery_list-item"><a class="delivery_list-link" href="#">Credit</a></li>
-                <li class="delivery_text">
+                <li class="delivery_text-first">
                     <p>Some days i feel like i've been working on dlk my entire life and there are other days that i am
                         completely shocked that four years have flown by. It's simply magical.</p>
                 </li>
-                <li class="delivery_text">
+                <li class="delivery_text-second">
                     <p>What started as an outlet to deal with the traumatic loss of my husband, dlk has now become a
                         truly
                         happy place for me and i have you and all of the beautiful designers that we work with to thank!
                     </p>
                 </li>
-                <li class="delivery_btn"><button type="button" class="delivery_button">LEARN MORE</button></li>
+                <li class="delivery_btn"><button type="button" class="delivery_button" aria-label="Open deivery page">LEARN MORE</button></li>
             </ul>
         </section>
         <div class="companies_logo container">
             <ul class="companies_list">
-                <li class="companies_list-item"><img src="./images/mail.png" width="193" height="60"
-                        alt="mail.ru group_logo"></li>
+                <li class="companies_list-item"><img src="./images/mail.png" width="193" height="60" alt="mail.ru group_logo"></li>
                 <li class="companies_list-item"><img src="./images/apple.png" width="179" height="61" alt="Apple_logo">
                 </li>
                 <li class="companies_list-item"><img src="./images/eltex.png" width="216" height="46" alt="ELTEX_logo">
@@ -126,7 +125,7 @@
                             there are other days that i am completely shocked that four years have flown by. It's simply
                             magical.</p>
                     </li>
-                    <li about_us_list-item><button type="button" class="about_us_button">BUY NOW</button></li>
+                    <li about_us_list-item><button type="button" class="about_us_button" aria-label="Open catalog page">BUY NOW</button></li>
                 </ul>
                 <ul class="contacts_list">
                     <li contacts_list-item>
@@ -137,7 +136,7 @@
                             are other days that i am completely shocked that four years have flown by. It's simply
                             magical.</p>
                     </li>
-                    <li contacts_list-pic> 
+                    <li contacts_list-map> 
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3438.979307179263!2d-122.42051417544492!3d37.776961027283065!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1677918726204!5m2!1sru!2sru"
                             width="483" height="200" style="border:0;" allowfullscreen="" loading="lazy"
@@ -173,51 +172,40 @@
                 <li class="customer_info-item"><a class="customer_info-link" href="#">Privacy Policy</a></li>
                 <li class="customer_info-item"><a class="customer_info-link" href="#">Search</a></li>
             </ul>
-
             <form action="#" class="email_form">
-                <input type="email" class="email" id="Email" placeholder="Email"></p>
-                <button type="button" class="connect_button">Join</button>
+                <input type="email" class="email" id="Email" placeholder="Email">
+                <button type="button" class="connect_button" aria-label="Join to get news">Join</button>
             </form>
             <ul class="connect_list">
                 <li class="connect_list-item">
-                    <a class="connect_list-link-f" href="#"><img src="./icon/Facebook.svg" alt="facebook_logo"></a>
+                    <a class="connect_list-link" href="#"><img src="./icon/Facebook.svg" alt="facebook_logo"></a>
                 </li>
                 <li class="connect_list-item">
-                    <a class="connect_list-link-t" href="#"><img src="./icon/Twitter.svg" alt="twitter_logo"></a>
+                    <a class="connect_list-link" href="#"><img src="./icon/Twitter.svg" alt="twitter_logo"></a>
                 </li>
                 <li class="connect_list-item">
-                    <a class="connect_list-link-p" href="#"><img src="./icon/Pinterest.svg" alt="pinterest_logo"></a>
+                    <a class="connect_list-link" href="#"><img src="./icon/Pinterest.svg" alt="pinterest_logo"></a>
                 </li>
                 <li class="connect_list-item">
-                    <a class="connect_list-link-i" href="#"><img src="./icon/Instagram.svg" alt="instagram_logo"></a>
+                    <a class="connect_list-link" href="#"><img src="./icon/Instagram.svg" alt="instagram_logo"></a>
                 </li>
             </ul>
         </div>
-        <div class="last-info">
+        <div class="last_info">
             <ul class="last_info_list">
-                <li class="last_info_list-item comp_rating">Company Rating</li>
-                <ul class="rating_list">
-                    <li class="rating-item">
-                        <label for="star_a" class="rating_label"></label>
-                        <input type="radio" id="star_a" name="star_rating" class="rating_input">
-                    </li>
-                    <li class="rating-item">
-                        <label for="star_b" id="star" class="rating_label"></label>
-                        <input type="radio" id="star_b" name="star_rating"  class="rating_input">
-                    </li>
-                    <li class="rating-item">
-                        <label for="star_c" class="rating_label"></label>
-                        <input type="radio" id="star_c" name="star_rating"  class="rating_input">
-                    </li>                        
-                    <li class="rating-item">
-                        <label for="star_d" class="rating_label"></label>
-                        <input type="radio" id="star_d" name="star_rating"  class="rating_input">
-                    </li>                        
-                    <li class="rating-item">
-                        <label for="star_e" class="rating_label"></label>
-                        <input type="radio" id="star_e" name="star_rating" class="rating_input">
-                    </li>
-                </ul>
+                <li class="last_info_list-item comp_rating">Company Rating
+                    <div class="rating_wrapper">
+                        <fieldset class="rating_area">
+                            <div class="rating_group">
+                                <input type="radio" name="star" value="1" class="rating_input" aria-label="Ужасно">
+                                <input type="radio" name="star" value="2" class="rating_input" aria-label="Плохо">
+                                <input type="radio" name="star" value="3" class="rating_input" aria-label="Нормально">
+                                <input type="radio" name="star" value="4" class="rating_input" aria-label="Хорошо">
+                                <input type="radio" name="star" value="5" class="rating_input" aria-label="Отлично">
+                            </div>
+                        </fieldset>
+                    </div>
+                </li>
                 <li class="last_info_list-item">Copyright &copy;2018 Dlk • Design Life Kids</li>
                 <li class="last_info_list-item"><a class="web_design-link" href="#">Web Design — Direct Line Development</a></li>
             </ul>
@@ -254,10 +242,10 @@
                                 of your personal data
                         </label>
                     </div>
-                    <button type="submit" class="form_button">Submit</button>
+                    <button type="submit" class="form_button" aria-label="Send a massege">Submit</button>
                 </div>
             </form>
-            <button type="button" class="close"></button>
+            <button type="button" class="close" aria-label="Close popup"></button>
         </div>
         <div class="overlay"></div>
     </div>

@@ -4,7 +4,7 @@
 
 .page_title {
     display: flex;
-    margin-top: 40px;
+    margin-top: 56px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -19,9 +19,8 @@
 .search_line_list {
     display: flex;
     margin-left: -38px;
-    margin-top: -15px;
-    column-gap: 10px;
-    border-top: 30px;
+    margin-top: -12px;
+    column-gap: 14px;
 }
 
 .search_line_list-item {
@@ -55,7 +54,7 @@
 .contact_page {
     display: flex;
     margin-top: 50px;
-    column-gap: 120px;
+    column-gap: 119px;
     margin-bottom: -33px;
 }
 
@@ -99,7 +98,7 @@
     display: flex;
     margin-top: 3px;
     margin-bottom: 20px;
-    width: 590px;
+    width: 579px;
     height: 50px;
     padding: 0px 0px 0px 20px;
     border: 1px solid #00000033;
@@ -115,8 +114,8 @@
     display: flex;
     margin-top: 3px;
     margin-bottom: 20px;
-    width: 254px;
-    height: 50px;
+    width: 248px;
+    height: 48px;
     padding: 0px 20px 0px 20px;
     border: 1px solid #00000033;
     font-family: 'Open Sans';
@@ -137,7 +136,7 @@
     margin-bottom: 22px;
     resize: none;
     padding: 0px 20px 0px 20px;
-    width: 570px;
+    width: 558px;
     height: 150px;
     border: 1px solid #00000033;
     font-family: 'Open Sans';
@@ -193,7 +192,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: -22px;
+    margin-bottom: -32px;
     width: 106px;
     height: 40px;
     padding: 9px 22px 9px 22px;
@@ -234,11 +233,14 @@
 
 .support_list {
     display: flex;
-    margin-top: -20px;
+    flex-direction: column;
+    margin-top: -6px;
+    margin-left: -38px;
 }
 
 .support_text {
     display: flex;
+    margin-top: 4px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -249,6 +251,7 @@
 
 .support_title {
     display: flex;
+    margin-top: 4px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
