@@ -51,23 +51,6 @@
     z-index: 1;
 }
 
-/* вероятно сменить на символ */
-
-/* .search_line_button-ahead:hover {
-    background-image: url("../images/btn_ahead_hover.svg");
-    width: 3px;
-    height: 5px;
-}
-
-.search_line_button-ahead:active {
-    background-image: url("../images/btn_ahead_active.svg");
-    background-color: #;
-    width: 3px;
-    height: 5px;
-} */
-
-/* categories style */
-
 .categories_list {
     display: flex;
     margin-left: -38px;
@@ -81,6 +64,42 @@
     justify-content: center;
     position: relative;
 }
+
+.shirt_pic {
+    background-color: #DBE4DB; 
+    width: 280px;
+    height: 270px;
+ }
+ 
+ .sock_pic {
+     background-color: #EADDD3; 
+     width: 280px;
+     height: 270px;
+  }
+ 
+  .deer_pic {
+     background-color: #F8F2DA; 
+     width: 280px;
+     height: 270px;
+  }
+ 
+  .yeti_pic {
+     background-color: #D5D4E1; 
+     width: 280px;
+     height: 270px;
+  }
+ 
+  .flamingo_pic {
+    background-color: #F3D0DB; 
+    width: 280px;
+    height: 270px;
+ }
+
+ .blouse_pic {
+    background-color: #E5EAF8; 
+    width: 280px;
+    height: 270px;
+ }
 
 .categories_list-link {
     display: flex;

@@ -168,3 +168,7 @@
     background-image: url("../images/page_ahead_active.svg");
     background-repeat: no-repeat;
 }
+
+.nav-link--vector:hover {
+   opacity: 0;
+}
